@@ -7,23 +7,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>น้องพระ</h1>
+    <header class="menu-bar">
+        <div class="logo">
+            <div class="logo-graphic">
+                <div class="logo-dot"></div>
+                <div class="logo-text">Nong pra</div>
+            </div>
+            <div class="logo-subtitle">fashion boutique club</div>
+        </div>
         <nav>
-            <button id="home-btn">หน้าหลัก</button>
-            <button id="about-btn">เกี่ยวกับเรา</button>
-            <button id="contact-btn">ติดต่อ</button>
+            <a href="#" id="home-link" class="menu-link">Home</a>
+            <a href="#" id="about-link" class="menu-link">About</a>
+            <a href="#" id="products-link" class="menu-link">Products</a>
+            <a href="#" id="gallery-link" class="menu-link">Gallery</a>
+            <a href="#" id="blog-link" class="menu-link">Blog</a>
+            <a href="#" id="contact-link" class="menu-link">Contact</a>
         </nav>
     </header>
     <main>
         <section id="content">
             <h2>หน้าหลัก</h2>
             <p>นี่คือเว็บไซต์ UI ยากๆ ที่สร้างขึ้นด้วย น้องพระ!</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://media.wired.com/photos/593261cab8eb31692072f129/3:2/w_2560,c_limit/85120553.jpg" alt="Animal poster" class="gallery-img">
+                    <p class="gallery-caption">Beautiful nature artwork</p>
+                </div>
+            </div>
             <p id="message"></p>
         </section>
     </main>
     <footer>
-        <p>&copy; เว็ปโป๊
+        <p>&copy; 2026 Nong pra Fashion Boutique Club. All rights reserved.
         </p>
     </footer>
     <script src="script.js"></script>
